@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Bank Guru]">
+  <test thread-count="5" name="Run on Chrome(failed)">
+    <classes>
+      <class name="com.bankguru.login.Login_01_Register_And_Login_Repeat_Yourself">
+        <methods>
+          <include name="initBrowser"/>
+          <include name="Login_02_Login_To_System"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.bankguru.login.Login_01_Register_And_Login_Repeat_Yourself -->
+    </classes>
+  </test> <!-- Run on Chrome(failed) -->
+</suite> <!-- Failed suite [Bank Guru] -->
