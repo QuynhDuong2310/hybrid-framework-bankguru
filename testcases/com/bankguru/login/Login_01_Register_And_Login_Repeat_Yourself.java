@@ -11,7 +11,11 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class Login_01_Register_And_Login_Repeat_Yourself{
+import commons.BasePage;
+import pageObjects.HomePageObject;
+import pageObjects.LoginPageOject;
+
+public class Login_01_Register_And_Login_Repeat_Yourself extends BasePage{
 	WebDriver driver;
 	String projectLocator = System.getProperty("user.dir");
 	String userName, passWord, currentUrl;
@@ -28,22 +32,24 @@ public class Login_01_Register_And_Login_Repeat_Yourself{
 
 	@Test
 	public void Login_01_Register_To_System() {
-		driver.findElement(By.xpath("//a[text()='here']")).click();
-		driver.findElement(By.xpath("//input[@name='emailid']")).sendKeys(getRandomEmail());
-		driver.findElement(By.xpath("//input[@name='btnLogin']")).click();
-		userName = driver.findElement(By.xpath("//td[text()='User ID :']/following-sibling::td")).getText();
-		passWord = driver.findElement(By.xpath("//td[text()='Password :']/following-sibling::td")).getText();
+		
+		clickToElement(driver, "//a[text()='here']");
+		sendKeyToElement(driver, "//input[@name='emailid']", getRandomEmail());
+		clickToElement(driver, "//input[@name='btnLogin']");
+		userName= getElementText(driver, "//td[text()='User ID :']/following-sibling::td");
+		passWord = getElementText(driver, "//td[text()='Password :']/following-sibling::td");
+		
 	
 	}
 
 	@Test
 	public void Login_02_Login_To_System() {
 		driver.get(currentUrl);
-		driver.findElement(By.xpath("//input[@name='uid']")).sendKeys(userName);
-		driver.findElement(By.xpath("//input[@name='password']")).sendKeys(passWord);
+		sendKeyToElement(driver, "//input[@name='uid']", userName);
+		sendKeyToElement(driver, "//input[@name='password']", passWord);
 		
-		driver.findElement(By.xpath("//input[@name='btnLogin']")).click();
-		String welcomeMessage = driver.findElement(By.cssSelector("marquee.heading3")).getText();
+		clickToElement(driver, "//input[@name='btnLogin']");
+		String welcomeMessage = getElementText(driver, "//marquee[@class='heading3']");
 		Assert.assertEquals(welcomeMessage, "Welcome To Manager's Page of Guru99 Bank");
 		
 	}
@@ -58,4 +64,7 @@ public class Login_01_Register_And_Login_Repeat_Yourself{
 		driver.quit();
 	}
 
+	
+	
+	
 }

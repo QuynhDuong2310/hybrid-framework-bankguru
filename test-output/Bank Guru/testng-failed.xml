@@ -3,13 +3,13 @@
 <suite name="Failed suite [Bank Guru]">
   <test thread-count="5" name="Run on Chrome(failed)">
     <classes>
-      <class name="com.bankguru.login.Login_01_Register_And_Login_Repeat_Yourself">
+      <class name="com.bankguru.newcustomer.New_Customer">
         <methods>
-          <include name="initBrowser"/>
-          <include name="Login_02_Login_To_System"/>
+          <include name="TC_01_Name_Can_Not_Be_Empty"/>
+          <include name="beforeClass"/>
           <include name="afterClass"/>
         </methods>
-      </class> <!-- com.bankguru.login.Login_01_Register_And_Login_Repeat_Yourself -->
+      </class> <!-- com.bankguru.newcustomer.New_Customer -->
     </classes>
   </test> <!-- Run on Chrome(failed) -->
 </suite> <!-- Failed suite [Bank Guru] -->
