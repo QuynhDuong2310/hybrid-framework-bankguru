@@ -24,8 +24,7 @@ public class Edit_Customer  extends BaseTest{
 
 	@Parameters("browser")
 	@BeforeClass
-	public void beforeClass(String browserName) {
-		
+	public void beforeClass(String browserName) {		
 		driver = getBrowserDriver(browserName);
 
 		loginPage = PageGeneratorManager.getLoginPage(driver);
