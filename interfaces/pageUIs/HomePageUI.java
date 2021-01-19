@@ -2,8 +2,7 @@ package pageUIs;
 
 public class HomePageUI {
 	public static final String NEW_CUSTOMER_LINK ="//a[text()='New Customer']"; 
-	public static final String NAME_TEXT_BOX ="//input[@name='name']"; 
-	public static final String SUBMIT_BUTTON ="//input[@type='submit']"; 
-	public static final String ERROR_MESSAGE ="//label[text()='Customer name must not be blank']"; 
-
+	public static final String CUSTOMER_REGISTERED_SUCCESSFULLY_MESAGE ="//p[@class='heading3']"; 
+	public static final String CUSTOMER_ID ="//tr//td[text()='Customer ID']/following-sibling::td"; 
+	
 }

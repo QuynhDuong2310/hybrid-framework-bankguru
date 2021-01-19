@@ -1,8 +1,7 @@
 package com.bankguru.payment;
 
-import org.testng.annotations.Test;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 
 public class Payment_02_Payment_Depoist {
 

@@ -1,6 +1,5 @@
 package commons;
 
-import java.sql.Driver;
 import java.util.List;
 import java.util.Set;
 
@@ -15,7 +14,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com.sun.java.util.jar.pack.DriverResource;
+import pageUIs.AbstractPageUI;
 
 public class BasePage {
 
@@ -119,6 +118,10 @@ public class BasePage {
 		element = getElement(driver, locator);
 		element.click();
 	}
+	public String getTextElement(WebDriver driver, String locator) {
+		element = getElement(driver, locator);
+		return element.getText();
+	}
 
 	public void sendKeyToElement(WebDriver driver, String locator, String value) {
 		element = getElement(driver, locator);
@@ -218,6 +221,7 @@ public class BasePage {
 		element = getElement(driver, locator);
 		return element.isSelected();
 	}
+	
 
 	
 	public void switchToFrame(WebDriver driver, String locator) {
@@ -368,9 +372,60 @@ public class BasePage {
 	public void waitToElementToBeClickable(WebDriver driver, String locator) {
 		explicitWait = new WebDriverWait (driver, 30);
 		explicitWait.until(ExpectedConditions.elementToBeClickable(getByXpath(locator)));
-		}
+	}
 	
+	public String getDynamicLoctor(String locator, String...values) {
+		return locator = String.format(locator, (Object[])values);
+	}
+	public void waitToElementToBeClickable(WebDriver driver, String locator, String...values) {
+		explicitWait = new WebDriverWait (driver, 30);
+		explicitWait.until(ExpectedConditions.elementToBeClickable(getByXpath(getDynamicLoctor(locator, values))));
+	}
 	
+
+	public void waitToElementVisible(WebDriver driver, String locator, String...values) {
+		explicitWait = new WebDriverWait (driver, 30);
+		explicitWait.until(ExpectedConditions.visibilityOfElementLocated(getByXpath(getDynamicLoctor(locator, values))));
+	}
+	public void waitToElementInisible(WebDriver driver, String locator, String...values) {
+		explicitWait = new WebDriverWait (driver, 30);
+		explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(getByXpath(getDynamicLoctor(locator, values))));
+	}
+	public void clickToElement(WebDriver driver, String locator, String...values) {
+		element = getElement(driver, getDynamicLoctor(locator, values));
+		element.click();
+	}
+
+	public void sendKeyToElement(WebDriver driver, String locator, String value, String...values) {
+		element = getElement(driver, getDynamicLoctor(locator, values));
+		element.clear();
+		element.sendKeys(value);
+	}
+	
+	public void clearDataOfElement(WebDriver driver, String locator) {
+		element = getElement(driver, locator);
+		element.clear();
+		
+	}
+	
+	public void clearDataOfElement(WebDriver driver, String locator, String...values) {
+		element = getElement(driver, getDynamicLoctor(locator, values));
+		element.clear();
+		
+	}
+	
+	public boolean isElementDisplayed(WebDriver driver, String locator, String...values) {
+		element = getElement(driver, getDynamicLoctor(locator, values));
+		return element.isDisplayed();
+	}
+	public boolean isElementEnabled(WebDriver driver, String locator, String...values) {
+		element = getElement(driver, getDynamicLoctor(locator, values));
+		return element.isEnabled();
+	}
+	public void openNewPageByName(WebDriver driver, String pageName) {
+		waitToElementToBeClickable(driver, AbstractPageUI.DYNAMIC_MENU_LINK, pageName);
+		clickToElement(driver, AbstractPageUI.DYNAMIC_MENU_LINK, pageName);
+	}
 	private WebElement element;
 	private Select select;
 	private List<WebElement> elements;

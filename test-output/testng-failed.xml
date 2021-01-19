@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Bank Guru]">
-  <test thread-count="5" name="Run on Chrome(failed)">
+  <test thread-count="5" name="Run on EGDE CHROMIUM(failed)">
+    <parameter name="browser" value="edge_chromium"/>
     <classes>
-      <class name="com.bankguru.newcustomer.New_Customer">
+      <class name="com.bankguru.Edit_Customer">
         <methods>
-          <include name="TC_01_Name_Can_Not_Be_Empty"/>
+          <include name="Edit_Customer_14_Telephone_Can_Not_Have_Special_Character"/>
+          <include name="Edit_Customer_15_Email_Can_Not_Be_Empty"/>
+          <include name="Edit_Customer_18_Email_Invalid"/>
           <include name="beforeClass"/>
+          <include name="Edit_Customer_04_Valid_CustomerID"/>
+          <include name="Edit_Customer_13_Telephone_Can_Not_Be_Empty"/>
+          <include name="Edit_Customer_16_Email_Invalid"/>
           <include name="afterClass"/>
+          <include name="Edit_Customer_19_Email_Invalid"/>
         </methods>
-      </class> <!-- com.bankguru.newcustomer.New_Customer -->
+      </class> <!-- com.bankguru.Edit_Customer -->
     </classes>
-  </test> <!-- Run on Chrome(failed) -->
+  </test> <!-- Run on EGDE CHROMIUM(failed) -->
 </suite> <!-- Failed suite [Bank Guru] -->

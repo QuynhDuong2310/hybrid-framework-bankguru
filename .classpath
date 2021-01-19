@@ -7,6 +7,10 @@
 	<classpathentry kind="src" path="resources"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="libraries/selenium-server-standalone-3.141.59.jar" sourcepath="libraries/client-combined-3.141.59-sources.jar"/>
-	<classpathentry kind="lib" path="libraries/testng-6.14.3 (1).jar"/>
+	<classpathentry kind="lib" path="libraries/testng-6.14.3 (1).jar" sourcepath="C:/Users/quynh.duongthu/Downloads/testng-6.14.3-javadoc.jar">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

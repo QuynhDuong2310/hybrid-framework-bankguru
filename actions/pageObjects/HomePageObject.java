@@ -17,20 +17,15 @@ public class HomePageObject extends BasePage {
 		clickToElement(driver, HomePageUI.NEW_CUSTOMER_LINK);
 	}
 
-	public void clickToNameField() {
-		waitToElementToBeClickable(driver, HomePageUI.NAME_TEXT_BOX);
-		clickToElement(driver, HomePageUI.NAME_TEXT_BOX);
+	public String getCustomerRegisteredSuccessfully() {
+		waitToElementVisible(driver, HomePageUI.CUSTOMER_REGISTERED_SUCCESSFULLY_MESAGE);
+		return getTextElement(driver, HomePageUI.CUSTOMER_REGISTERED_SUCCESSFULLY_MESAGE);
 	}
 
-	public void clickToSubmiButton() {
-		waitToElementToBeClickable(driver, HomePageUI.SUBMIT_BUTTON);
-		clickToElement(driver, HomePageUI.SUBMIT_BUTTON);
-
+	public String getCustomerID() {
+		waitToElementVisible(driver, HomePageUI.CUSTOMER_ID);
+		return getElementText(driver, HomePageUI.CUSTOMER_ID);
 	}
 
-	public boolean isCustomerNameCanNotBeBlankErrorMesaaageDisplayed() {
-		waitToElementVisible(driver, HomePageUI.ERROR_MESSAGE);
-		return isElementDisplayed(driver, HomePageUI.ERROR_MESSAGE);
-	}
-
+	
 }
