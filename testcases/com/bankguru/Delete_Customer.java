@@ -1,7 +1,5 @@
 package com.bankguru;
 
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -16,7 +14,7 @@ import pageObjects.LoginPageOject;
 import pageObjects.NewCustomerPageObject;
 import pageObjects.PageGeneratorManager;
 
-public class Edit_Customer  extends BaseTest{
+public class Delete_Customer  extends BaseTest{
 	WebDriver driver;
 	String userName = "mngr302795";
 	String passWord = "ybemAqe";

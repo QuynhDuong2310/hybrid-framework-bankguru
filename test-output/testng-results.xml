@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Bank Guru" duration-ms="82941" started-at="2021-01-19T08:34:18Z" finished-at="2021-01-19T08:35:40Z">
+  <suite name="Bank Guru" duration-ms="67774" started-at="2021-01-20T08:18:22Z" finished-at="2021-01-20T08:19:30Z">
     <groups>
     </groups>
-    <test name="Run on FIREFOX UI" duration-ms="82941" started-at="2021-01-19T08:34:18Z" finished-at="2021-01-19T08:35:40Z">
+    <test name="Run on FIREFOX UI" duration-ms="67774" started-at="2021-01-20T08:18:22Z" finished-at="2021-01-20T08:19:30Z">
       <class name="com.bankguru.Edit_Customer">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.bankguru.Edit_Customer@2ef5e5e3]" name="beforeClass" is-config="true" duration-ms="55285" started-at="2021-01-19T08:34:18Z" finished-at="2021-01-19T08:35:13Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.bankguru.Edit_Customer@36d4b5c]" name="beforeClass" is-config="true" duration-ms="57975" started-at="2021-01-20T08:18:22Z" finished-at="2021-01-20T08:19:20Z">
           <params>
             <param index="0">
               <value>
@@ -18,35 +18,35 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="Edit_Customer_04_Valid_CustomerID()[pri:0, instance:com.bankguru.Edit_Customer@2ef5e5e3]" name="Edit_Customer_04_Valid_CustomerID" duration-ms="16293" started-at="2021-01-19T08:35:13Z" finished-at="2021-01-19T08:35:29Z">
+        <test-method status="PASS" signature="Edit_Customer_04_Valid_CustomerID()[pri:0, instance:com.bankguru.Edit_Customer@36d4b5c]" name="Edit_Customer_04_Valid_CustomerID" duration-ms="2754" started-at="2021-01-20T08:19:20Z" finished-at="2021-01-20T08:19:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Edit_Customer_04_Valid_CustomerID -->
-        <test-method status="PASS" signature="Edit_Customer_13_Telephone_Can_Not_Be_Empty()[pri:0, instance:com.bankguru.Edit_Customer@2ef5e5e3]" name="Edit_Customer_13_Telephone_Can_Not_Be_Empty" duration-ms="4714" started-at="2021-01-19T08:35:29Z" finished-at="2021-01-19T08:35:34Z">
+        <test-method status="PASS" signature="Edit_Customer_13_Telephone_Can_Not_Be_Empty()[pri:0, instance:com.bankguru.Edit_Customer@36d4b5c]" name="Edit_Customer_13_Telephone_Can_Not_Be_Empty" duration-ms="1459" started-at="2021-01-20T08:19:23Z" finished-at="2021-01-20T08:19:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Edit_Customer_13_Telephone_Can_Not_Be_Empty -->
-        <test-method status="PASS" signature="Edit_Customer_14_Telephone_Can_Not_Have_Special_Character()[pri:0, instance:com.bankguru.Edit_Customer@2ef5e5e3]" name="Edit_Customer_14_Telephone_Can_Not_Have_Special_Character" duration-ms="1337" started-at="2021-01-19T08:35:34Z" finished-at="2021-01-19T08:35:35Z">
+        <test-method status="PASS" signature="Edit_Customer_14_Telephone_Can_Not_Have_Special_Character()[pri:0, instance:com.bankguru.Edit_Customer@36d4b5c]" name="Edit_Customer_14_Telephone_Can_Not_Have_Special_Character" duration-ms="685" started-at="2021-01-20T08:19:24Z" finished-at="2021-01-20T08:19:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Edit_Customer_14_Telephone_Can_Not_Have_Special_Character -->
-        <test-method status="PASS" signature="Edit_Customer_15_Email_Can_Not_Be_Empty()[pri:0, instance:com.bankguru.Edit_Customer@2ef5e5e3]" name="Edit_Customer_15_Email_Can_Not_Be_Empty" duration-ms="1030" started-at="2021-01-19T08:35:35Z" finished-at="2021-01-19T08:35:36Z">
+        <test-method status="PASS" signature="Edit_Customer_15_Email_Can_Not_Be_Empty()[pri:0, instance:com.bankguru.Edit_Customer@36d4b5c]" name="Edit_Customer_15_Email_Can_Not_Be_Empty" duration-ms="785" started-at="2021-01-20T08:19:25Z" finished-at="2021-01-20T08:19:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Edit_Customer_15_Email_Can_Not_Be_Empty -->
-        <test-method status="PASS" signature="Edit_Customer_16_Email_Invalid()[pri:0, instance:com.bankguru.Edit_Customer@2ef5e5e3]" name="Edit_Customer_16_Email_Invalid" duration-ms="788" started-at="2021-01-19T08:35:36Z" finished-at="2021-01-19T08:35:37Z">
+        <test-method status="PASS" signature="Edit_Customer_16_Email_Invalid()[pri:0, instance:com.bankguru.Edit_Customer@36d4b5c]" name="Edit_Customer_16_Email_Invalid" duration-ms="508" started-at="2021-01-20T08:19:26Z" finished-at="2021-01-20T08:19:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Edit_Customer_16_Email_Invalid -->
-        <test-method status="PASS" signature="Edit_Customer_18_Email_Invalid()[pri:0, instance:com.bankguru.Edit_Customer@2ef5e5e3]" name="Edit_Customer_18_Email_Invalid" duration-ms="588" started-at="2021-01-19T08:35:37Z" finished-at="2021-01-19T08:35:38Z">
+        <test-method status="PASS" signature="Edit_Customer_18_Email_Invalid()[pri:0, instance:com.bankguru.Edit_Customer@36d4b5c]" name="Edit_Customer_18_Email_Invalid" duration-ms="585" started-at="2021-01-20T08:19:26Z" finished-at="2021-01-20T08:19:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Edit_Customer_18_Email_Invalid -->
-        <test-method status="PASS" signature="Edit_Customer_19_Email_Invalid()[pri:0, instance:com.bankguru.Edit_Customer@2ef5e5e3]" name="Edit_Customer_19_Email_Invalid" duration-ms="632" started-at="2021-01-19T08:35:38Z" finished-at="2021-01-19T08:35:38Z">
+        <test-method status="PASS" signature="Edit_Customer_19_Email_Invalid()[pri:0, instance:com.bankguru.Edit_Customer@36d4b5c]" name="Edit_Customer_19_Email_Invalid" duration-ms="609" started-at="2021-01-20T08:19:27Z" finished-at="2021-01-20T08:19:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Edit_Customer_19_Email_Invalid -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.bankguru.Edit_Customer@2ef5e5e3]" name="afterClass" is-config="true" duration-ms="2236" started-at="2021-01-19T08:35:38Z" finished-at="2021-01-19T08:35:40Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.bankguru.Edit_Customer@36d4b5c]" name="afterClass" is-config="true" duration-ms="2378" started-at="2021-01-20T08:19:27Z" finished-at="2021-01-20T08:19:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
