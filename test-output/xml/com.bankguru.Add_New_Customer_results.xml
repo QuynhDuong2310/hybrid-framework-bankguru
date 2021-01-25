@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on CHROME UI"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="9.352">
+  <properties />
+  
+  
+            <testcase name="Add_New_Customer_01_Successfully" time="9.352" classname="com.bankguru.Add_New_Customer" />
+      
+</testsuite>

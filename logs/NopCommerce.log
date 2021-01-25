@@ -1,0 +1,96 @@
+[INFO ] [2021-01-25 15:17:04,734] Preconditon - Step 01: Open Login Page
+[INFO ] [2021-01-25 15:17:04,788] Preconditon - Step 02: Input to username textbox with value: mngr302795
+[INFO ] [2021-01-25 15:17:05,533] Preconditon - Step 03: Input to password textbox with value: 12345678
+[INFO ] [2021-01-25 15:17:05,769] Preconditon - Step 04: Click on submit button
+[INFO ] [2021-01-25 15:17:08,553] Preconditon - Step 05: Click on new customer link
+[INFO ] [2021-01-25 15:17:10,428] Preconditon - Step 06: Get new customer Page
+[INFO ] [2021-01-25 15:17:10,467] Add new customer- Step 1: Input Customer Name QuynhDuong
+[INFO ] [2021-01-25 15:17:10,898] Add new customer- Step 2: Select Female Radio Button
+[INFO ] [2021-01-25 15:17:11,053] Add new customer- Step 3: Select Date Of Birth with value: 01/22/2022
+[INFO ] [2021-01-25 15:17:11,290] Add new customer- Step 4: Input to address with value: 3A building
+[INFO ] [2021-01-25 15:17:11,568] Add new customer- Step 5: Input to City with value: Ha Noi
+[INFO ] [2021-01-25 15:17:11,776] Add new customer- Step 6: Input to state with value: Cau Giay
+[INFO ] [2021-01-25 15:17:12,010] Add new customer- Step 7: Input to pin with value: 123456
+[INFO ] [2021-01-25 15:17:12,218] Add new customer- Step 8: Input to mobilePhone with value: 012345689
+[INFO ] [2021-01-25 15:17:12,408] Add new customer- Step 9: Input to email with value: Quynhxoansh956429@gmail.com
+[INFO ] [2021-01-25 15:17:12,673] Add new customer- Step 10: Input to password with value: 12345678
+[INFO ] [2021-01-25 15:17:12,852] Add new customer- Step 11: Click on Submite button
+[INFO ] [2021-01-25 15:17:14,754] Add new customer- Step 12: Open Home page
+[INFO ] [2021-01-25 15:17:14,754] Add new customer- Step 13: Veryfy Registered Successfully Message
+[INFO ] [2021-01-25 15:17:14,939]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-25 15:17:14,939] Add new customer- Step 14: Get ra Customer ID
+[INFO ] [2021-01-25 15:17:15,064] Add new customer- Step 15: Click on  Edit customer link
+[INFO ] [2021-01-25 15:17:17,376] Add new customer- Step 16: Open  Edit Customer Page
+[INFO ] [2021-01-25 15:17:17,389] Add new customer- Step 17: Input to CustomerID textbox with value: 83960
+[INFO ] [2021-01-25 15:18:26,984] Preconditon - Step 01: Open Login Page
+[INFO ] [2021-01-25 15:18:26,987] Preconditon - Step 02: Input to username textbox with value: mngr302795
+[INFO ] [2021-01-25 15:18:27,383] Preconditon - Step 03: Input to password textbox with value: 12345678
+[INFO ] [2021-01-25 15:18:27,569] Preconditon - Step 04: Click on submit button
+[INFO ] [2021-01-25 15:18:31,605] Preconditon - Step 05: Click on new customer link
+[INFO ] [2021-01-25 15:18:33,015] Preconditon - Step 06: Get new customer Page
+[INFO ] [2021-01-25 15:18:33,036] Add new customer- Step 1: Input Customer Name QuynhDuong
+[INFO ] [2021-01-25 15:18:33,351] Add new customer- Step 2: Select Female Radio Button
+[INFO ] [2021-01-25 15:18:33,487] Add new customer- Step 3: Select Date Of Birth with value: 01/22/2022
+[INFO ] [2021-01-25 15:18:33,696] Add new customer- Step 4: Input to address with value: 3A building
+[INFO ] [2021-01-25 15:18:33,891] Add new customer- Step 5: Input to City with value: Ha Noi
+[INFO ] [2021-01-25 15:18:34,055] Add new customer- Step 6: Input to state with value: Cau Giay
+[INFO ] [2021-01-25 15:18:34,210] Add new customer- Step 7: Input to pin with value: 123456
+[INFO ] [2021-01-25 15:18:34,349] Add new customer- Step 8: Input to mobilePhone with value: 012345689
+[INFO ] [2021-01-25 15:18:34,506] Add new customer- Step 9: Input to email with value: Quynhxoansh951055@gmail.com
+[INFO ] [2021-01-25 15:18:34,726] Add new customer- Step 10: Input to password with value: 12345678
+[INFO ] [2021-01-25 15:18:34,887] Add new customer- Step 11: Click on Submite button
+[INFO ] [2021-01-25 15:18:36,464] Add new customer- Step 12: Open Home page
+[INFO ] [2021-01-25 15:18:36,465] Add new customer- Step 13: Veryfy Registered Successfully Message
+[INFO ] [2021-01-25 15:18:36,605]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-25 15:18:36,606] Add new customer- Step 14: Get ra Customer ID
+[INFO ] [2021-01-25 15:18:36,696] Add new customer- Step 15: Click on  Edit customer link
+[INFO ] [2021-01-25 15:18:38,753] Add new customer- Step 16: Open  Edit Customer Page
+[INFO ] [2021-01-25 15:18:38,755] Add new customer- Step 17: Input to CustomerID textbox with value: 86775
+[INFO ] [2021-01-25 15:25:50,700] Preconditon - Step 01: Open Login Page
+[INFO ] [2021-01-25 15:25:50,705] Preconditon - Step 02: Input to username textbox with value: mngr302795
+[INFO ] [2021-01-25 15:25:51,288] Preconditon - Step 03: Input to password textbox with value: 12345678
+[INFO ] [2021-01-25 15:25:51,506] Preconditon - Step 04: Click on submit button
+[INFO ] [2021-01-25 15:25:53,964] Preconditon - Step 05: Click on new customer link
+[INFO ] [2021-01-25 15:25:55,470] Preconditon - Step 06: Get new customer Page
+[INFO ] [2021-01-25 15:25:55,495] Add new customer- Step 1: Input Customer Name QuynhDuong
+[INFO ] [2021-01-25 15:25:55,916] Add new customer- Step 2: Select Female Radio Button
+[INFO ] [2021-01-25 15:25:56,100] Add new customer- Step 3: Select Date Of Birth with value: 01/22/2022
+[INFO ] [2021-01-25 15:25:56,326] Add new customer- Step 4: Input to address with value: 3A building
+[INFO ] [2021-01-25 15:25:56,542] Add new customer- Step 5: Input to City with value: Ha Noi
+[INFO ] [2021-01-25 15:25:56,743] Add new customer- Step 6: Input to state with value: Cau Giay
+[INFO ] [2021-01-25 15:25:56,940] Add new customer- Step 7: Input to pin with value: 123456
+[INFO ] [2021-01-25 15:25:57,136] Add new customer- Step 8: Input to mobilePhone with value: 012345689
+[INFO ] [2021-01-25 15:25:57,357] Add new customer- Step 9: Input to email with value: Quynhxoansh958316@gmail.com
+[INFO ] [2021-01-25 15:25:57,657] Add new customer- Step 10: Input to password with value: 12345678
+[INFO ] [2021-01-25 15:25:57,898] Add new customer- Step 11: Click on Submite button
+[INFO ] [2021-01-25 15:25:59,552] Add new customer- Step 12: Open Home page
+[INFO ] [2021-01-25 15:25:59,552] Add new customer- Step 13: Verify Registered Successfully Message
+[INFO ] [2021-01-25 15:25:59,734]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-25 15:25:59,735] Add new customer- Step 14: Get ra Customer ID
+[INFO ] [2021-01-25 15:25:59,856] Add new customer- Step 15: Click on  Edit customer link
+[INFO ] [2021-01-25 15:26:01,612] Add new customer- Step 16: Open  Edit Customer Page
+[INFO ] [2021-01-25 15:26:01,614] Add new customer- Step 17: Input to CustomerID textbox with value: 25463
+[INFO ] [2021-01-25 15:37:09,012] Preconditon - Step 01: Open Login Page
+[INFO ] [2021-01-25 15:37:09,019] Preconditon - Step 02: Input to username textbox with value: mngr302795
+[INFO ] [2021-01-25 15:37:09,461] Preconditon - Step 03: Input to password textbox with value: 12345678
+[INFO ] [2021-01-25 15:37:09,698] Preconditon - Step 04: Click on submit button
+[INFO ] [2021-01-25 15:37:12,242] Preconditon - Step 05: Click on new customer link
+[INFO ] [2021-01-25 15:37:13,757] Preconditon - Step 06: Get new customer Page
+[INFO ] [2021-01-25 15:37:13,780] Add new customer- Step 1: Input Customer Name QuynhDuong
+[INFO ] [2021-01-25 15:37:14,325] Add new customer- Step 2: Select Female Radio Button
+[INFO ] [2021-01-25 15:37:14,459] Add new customer- Step 3: Select Date Of Birth with value: 01/22/2022
+[INFO ] [2021-01-25 15:37:14,719] Add new customer- Step 4: Input to address with value: 3A building
+[INFO ] [2021-01-25 15:37:14,963] Add new customer- Step 5: Input to City with value: Ha Noi
+[INFO ] [2021-01-25 15:37:15,187] Add new customer- Step 6: Input to state with value: Cau Giay
+[INFO ] [2021-01-25 15:37:15,388] Add new customer- Step 7: Input to pin with value: 123456
+[INFO ] [2021-01-25 15:37:15,584] Add new customer- Step 8: Input to mobilePhone with value: 012345689
+[INFO ] [2021-01-25 15:37:15,767] Add new customer- Step 9: Input to email with value: Quynhxoansh95594@gmail.com
+[INFO ] [2021-01-25 15:37:16,018] Add new customer- Step 10: Input to password with value: 12345678
+[INFO ] [2021-01-25 15:37:16,216] Add new customer- Step 11: Click on Submite button
+[INFO ] [2021-01-25 15:37:19,980] Add new customer- Step 12: Open Home page
+[INFO ] [2021-01-25 15:37:19,980] Add new customer- Step 13: Verify Registered Successfully Message
+[INFO ] [2021-01-25 15:37:20,065]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-25 15:37:20,065] Add new customer- Step 14: Get ra Customer ID
+[INFO ] [2021-01-25 15:37:20,183] Add new customer- Step 15: Click on  Edit customer link
+[INFO ] [2021-01-25 15:37:22,819] Add new customer- Step 16: Open  Edit Customer Page
+[INFO ] [2021-01-25 15:37:22,820] Add new customer- Step 17: Input to CustomerID textbox with value: 61813

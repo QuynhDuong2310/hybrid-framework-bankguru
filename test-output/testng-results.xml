@@ -1,56 +1,217 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[[INFO ] [2021-01-25 15:37:09,012] Preconditon - Step 01: Open Login Page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-25 15:37:09,019] Preconditon - Step 02: Input to username textbox with value: mngr302795
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-25 15:37:09,461] Preconditon - Step 03: Input to password textbox with value: 12345678
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-25 15:37:09,698] Preconditon - Step 04: Click on submit button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-25 15:37:12,242] Preconditon - Step 05: Click on new customer link
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-25 15:37:13,757] Preconditon - Step 06: Get new customer Page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-25 15:37:13,780] Add new customer- Step 1: Input Customer Name QuynhDuong
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-25 15:37:14,325] Add new customer- Step 2: Select Female Radio Button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-25 15:37:14,459] Add new customer- Step 3: Select Date Of Birth with value: 01/22/2022
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-25 15:37:14,719] Add new customer- Step 4: Input to address with value: 3A building
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-25 15:37:14,963] Add new customer- Step 5: Input to City with value: Ha Noi
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-25 15:37:15,187] Add new customer- Step 6: Input to state with value: Cau Giay
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-25 15:37:15,388] Add new customer- Step 7: Input to pin with value: 123456
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-25 15:37:15,584] Add new customer- Step 8: Input to mobilePhone with value: 012345689
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-25 15:37:15,767] Add new customer- Step 9: Input to email with value: Quynhxoansh95594@gmail.com
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-25 15:37:16,018] Add new customer- Step 10: Input to password with value: 12345678
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-25 15:37:16,216] Add new customer- Step 11: Click on Submite button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-25 15:37:19,980] Add new customer- Step 12: Open Home page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-25 15:37:19,980] Add new customer- Step 13: Verify Registered Successfully Message
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-25 15:37:20,065]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-25 15:37:20,065] Add new customer- Step 14: Get ra Customer ID
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-25 15:37:20,183] Add new customer- Step 15: Click on  Edit customer link
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-25 15:37:22,819] Add new customer- Step 16: Open  Edit Customer Page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-25 15:37:22,820] Add new customer- Step 17: Input to CustomerID textbox with value: 61813
+<br>]]>
+    </line>
   </reporter-output>
-  <suite name="Bank Guru" duration-ms="67774" started-at="2021-01-20T08:18:22Z" finished-at="2021-01-20T08:19:30Z">
+  <suite name="Bank Guru" duration-ms="25715" started-at="2021-01-25T08:36:58Z" finished-at="2021-01-25T08:37:24Z">
     <groups>
     </groups>
-    <test name="Run on FIREFOX UI" duration-ms="67774" started-at="2021-01-20T08:18:22Z" finished-at="2021-01-20T08:19:30Z">
-      <class name="com.bankguru.Edit_Customer">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.bankguru.Edit_Customer@36d4b5c]" name="beforeClass" is-config="true" duration-ms="57975" started-at="2021-01-20T08:18:22Z" finished-at="2021-01-20T08:19:20Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox_ui]]>
-              </value>
-            </param>
-          </params>
+    <test name="Run on CHROME UI" duration-ms="25715" started-at="2021-01-25T08:36:58Z" finished-at="2021-01-25T08:37:24Z">
+      <class name="com.bankguru.Add_New_Customer">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.bankguru.Add_New_Customer@6f195bc3]" name="beforeClass" is-config="true" duration-ms="14911" started-at="2021-01-25T08:36:58Z" finished-at="2021-01-25T08:37:13Z">
           <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2021-01-25 15:37:09,012] Preconditon - Step 01: Open Login Page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-25 15:37:09,019] Preconditon - Step 02: Input to username textbox with value: mngr302795
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-25 15:37:09,461] Preconditon - Step 03: Input to password textbox with value: 12345678
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-25 15:37:09,698] Preconditon - Step 04: Click on submit button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-25 15:37:12,242] Preconditon - Step 05: Click on new customer link
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-25 15:37:13,757] Preconditon - Step 06: Get new customer Page
+<br>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="Edit_Customer_04_Valid_CustomerID()[pri:0, instance:com.bankguru.Edit_Customer@36d4b5c]" name="Edit_Customer_04_Valid_CustomerID" duration-ms="2754" started-at="2021-01-20T08:19:20Z" finished-at="2021-01-20T08:19:23Z">
+        <test-method status="PASS" signature="Add_New_Customer_01_Successfully()[pri:0, instance:com.bankguru.Add_New_Customer@6f195bc3]" name="Add_New_Customer_01_Successfully" duration-ms="9352" started-at="2021-01-25T08:37:13Z" finished-at="2021-01-25T08:37:23Z">
           <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2021-01-25 15:37:13,780] Add new customer- Step 1: Input Customer Name QuynhDuong
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-25 15:37:14,325] Add new customer- Step 2: Select Female Radio Button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-25 15:37:14,459] Add new customer- Step 3: Select Date Of Birth with value: 01/22/2022
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-25 15:37:14,719] Add new customer- Step 4: Input to address with value: 3A building
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-25 15:37:14,963] Add new customer- Step 5: Input to City with value: Ha Noi
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-25 15:37:15,187] Add new customer- Step 6: Input to state with value: Cau Giay
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-25 15:37:15,388] Add new customer- Step 7: Input to pin with value: 123456
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-25 15:37:15,584] Add new customer- Step 8: Input to mobilePhone with value: 012345689
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-25 15:37:15,767] Add new customer- Step 9: Input to email with value: Quynhxoansh95594@gmail.com
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-25 15:37:16,018] Add new customer- Step 10: Input to password with value: 12345678
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-25 15:37:16,216] Add new customer- Step 11: Click on Submite button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-25 15:37:19,980] Add new customer- Step 12: Open Home page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-25 15:37:19,980] Add new customer- Step 13: Verify Registered Successfully Message
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-25 15:37:20,065]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-25 15:37:20,065] Add new customer- Step 14: Get ra Customer ID
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-25 15:37:20,183] Add new customer- Step 15: Click on  Edit customer link
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-25 15:37:22,819] Add new customer- Step 16: Open  Edit Customer Page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-25 15:37:22,820] Add new customer- Step 17: Input to CustomerID textbox with value: 61813
+<br>]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- Edit_Customer_04_Valid_CustomerID -->
-        <test-method status="PASS" signature="Edit_Customer_13_Telephone_Can_Not_Be_Empty()[pri:0, instance:com.bankguru.Edit_Customer@36d4b5c]" name="Edit_Customer_13_Telephone_Can_Not_Be_Empty" duration-ms="1459" started-at="2021-01-20T08:19:23Z" finished-at="2021-01-20T08:19:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Edit_Customer_13_Telephone_Can_Not_Be_Empty -->
-        <test-method status="PASS" signature="Edit_Customer_14_Telephone_Can_Not_Have_Special_Character()[pri:0, instance:com.bankguru.Edit_Customer@36d4b5c]" name="Edit_Customer_14_Telephone_Can_Not_Have_Special_Character" duration-ms="685" started-at="2021-01-20T08:19:24Z" finished-at="2021-01-20T08:19:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Edit_Customer_14_Telephone_Can_Not_Have_Special_Character -->
-        <test-method status="PASS" signature="Edit_Customer_15_Email_Can_Not_Be_Empty()[pri:0, instance:com.bankguru.Edit_Customer@36d4b5c]" name="Edit_Customer_15_Email_Can_Not_Be_Empty" duration-ms="785" started-at="2021-01-20T08:19:25Z" finished-at="2021-01-20T08:19:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Edit_Customer_15_Email_Can_Not_Be_Empty -->
-        <test-method status="PASS" signature="Edit_Customer_16_Email_Invalid()[pri:0, instance:com.bankguru.Edit_Customer@36d4b5c]" name="Edit_Customer_16_Email_Invalid" duration-ms="508" started-at="2021-01-20T08:19:26Z" finished-at="2021-01-20T08:19:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Edit_Customer_16_Email_Invalid -->
-        <test-method status="PASS" signature="Edit_Customer_18_Email_Invalid()[pri:0, instance:com.bankguru.Edit_Customer@36d4b5c]" name="Edit_Customer_18_Email_Invalid" duration-ms="585" started-at="2021-01-20T08:19:26Z" finished-at="2021-01-20T08:19:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Edit_Customer_18_Email_Invalid -->
-        <test-method status="PASS" signature="Edit_Customer_19_Email_Invalid()[pri:0, instance:com.bankguru.Edit_Customer@36d4b5c]" name="Edit_Customer_19_Email_Invalid" duration-ms="609" started-at="2021-01-20T08:19:27Z" finished-at="2021-01-20T08:19:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Edit_Customer_19_Email_Invalid -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.bankguru.Edit_Customer@36d4b5c]" name="afterClass" is-config="true" duration-ms="2378" started-at="2021-01-20T08:19:27Z" finished-at="2021-01-20T08:19:30Z">
+        </test-method> <!-- Add_New_Customer_01_Successfully -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.bankguru.Add_New_Customer@6f195bc3]" name="afterClass" is-config="true" duration-ms="1418" started-at="2021-01-25T08:37:23Z" finished-at="2021-01-25T08:37:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.bankguru.Edit_Customer -->
-    </test> <!-- Run on FIREFOX UI -->
+      </class> <!-- com.bankguru.Add_New_Customer -->
+    </test> <!-- Run on CHROME UI -->
   </suite> <!-- Bank Guru -->
 </testng-results>

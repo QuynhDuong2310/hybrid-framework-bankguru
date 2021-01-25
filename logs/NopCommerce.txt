@@ -1,0 +1,24 @@
+[INFO ] [2021-01-25 15:37:09,012] Preconditon - Step 01: Open Login Page
+[INFO ] [2021-01-25 15:37:09,019] Preconditon - Step 02: Input to username textbox with value: mngr302795
+[INFO ] [2021-01-25 15:37:09,461] Preconditon - Step 03: Input to password textbox with value: 12345678
+[INFO ] [2021-01-25 15:37:09,698] Preconditon - Step 04: Click on submit button
+[INFO ] [2021-01-25 15:37:12,242] Preconditon - Step 05: Click on new customer link
+[INFO ] [2021-01-25 15:37:13,757] Preconditon - Step 06: Get new customer Page
+[INFO ] [2021-01-25 15:37:13,780] Add new customer- Step 1: Input Customer Name QuynhDuong
+[INFO ] [2021-01-25 15:37:14,325] Add new customer- Step 2: Select Female Radio Button
+[INFO ] [2021-01-25 15:37:14,459] Add new customer- Step 3: Select Date Of Birth with value: 01/22/2022
+[INFO ] [2021-01-25 15:37:14,719] Add new customer- Step 4: Input to address with value: 3A building
+[INFO ] [2021-01-25 15:37:14,963] Add new customer- Step 5: Input to City with value: Ha Noi
+[INFO ] [2021-01-25 15:37:15,187] Add new customer- Step 6: Input to state with value: Cau Giay
+[INFO ] [2021-01-25 15:37:15,388] Add new customer- Step 7: Input to pin with value: 123456
+[INFO ] [2021-01-25 15:37:15,584] Add new customer- Step 8: Input to mobilePhone with value: 012345689
+[INFO ] [2021-01-25 15:37:15,767] Add new customer- Step 9: Input to email with value: Quynhxoansh95594@gmail.com
+[INFO ] [2021-01-25 15:37:16,018] Add new customer- Step 10: Input to password with value: 12345678
+[INFO ] [2021-01-25 15:37:16,216] Add new customer- Step 11: Click on Submite button
+[INFO ] [2021-01-25 15:37:19,980] Add new customer- Step 12: Open Home page
+[INFO ] [2021-01-25 15:37:19,980] Add new customer- Step 13: Verify Registered Successfully Message
+[INFO ] [2021-01-25 15:37:20,065]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-25 15:37:20,065] Add new customer- Step 14: Get ra Customer ID
+[INFO ] [2021-01-25 15:37:20,183] Add new customer- Step 15: Click on  Edit customer link
+[INFO ] [2021-01-25 15:37:22,819] Add new customer- Step 16: Open  Edit Customer Page
+[INFO ] [2021-01-25 15:37:22,820] Add new customer- Step 17: Input to CustomerID textbox with value: 61813

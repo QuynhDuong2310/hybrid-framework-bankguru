@@ -25,7 +25,7 @@ public class Add_New_Customer extends BaseTest{
 	String passWord = "ybemAqe";
 	String customerName = "QuynhDuong";
 	String dateOfBirth = "01/22/2022";
-	String adrress = "3A building";
+	String address = "3A building";
 	String city = "Ha Noi";
 	String state = "Cau Giay";
 	String pin = "123456";
@@ -43,60 +43,79 @@ public class Add_New_Customer extends BaseTest{
 		driver.manage().window().maximize();
 
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-
+		
+		log.info("Preconditon - Step 01: Open Login Page");
 		loginPage = PageGeneratorManager.getLoginPage(driver);
 
+		log.info("Preconditon - Step 02: Input to username textbox with value: " + userName);
 		loginPage.inputToUsernameTextbox(userName);
 
+		log.info("Preconditon - Step 03: Input to password textbox with value: " + password);
 		loginPage.inputToPasswordTextbox(passWord);
 
+		log.info("Preconditon - Step 04: Click on submit button");
 		homepage = loginPage.clickToSubmitButton();
 
+		log.info("Preconditon - Step 05: Click on new customer link");
 		homepage.openNewPageByName(driver, "New Customer");
 
+		log.info("Preconditon - Step 06: Get new customer Page");
 		newCustomerPage = PageGeneratorManager.getNewCustomerPage(driver);
 	}
 
 	@Test
 	public void Add_New_Customer_01_Successfully() {
 
+		log.info("Add new customer- Step 1: Input Customer Name " + customerName);
 		newCustomerPage.enterToCustomerNameTextbox(customerName);
 
+		log.info("Add new customer- Step 2: Select Female Radio Button");
 		newCustomerPage.selectFemaleRadiobutton();
 
+		log.info("Add new customer- Step 3: Select Date Of Birth with value: " + dateOfBirth);
 		newCustomerPage.selectDateOfBirthCalendar(dateOfBirth);
 
-		newCustomerPage.enterToAddressTextarea(adrress);
+		log.info("Add new customer- Step 4: Input to address with value: " + address);
+		newCustomerPage.enterToAddressTextarea(address);
 
+		log.info("Add new customer- Step 5: Input to City with value: " + city);
 		newCustomerPage.enterToCityTextbox(city, "city");
 
+		log.info("Add new customer- Step 6: Input to state with value: " + state);
 		newCustomerPage.enterToStateTextbox(state, "state");
 
+		log.info("Add new customer- Step 7: Input to pin with value: " + pin);
 		newCustomerPage.enterToPinTextbox(pin, "pinno");
 
+		log.info("Add new customer- Step 8: Input to mobilePhone with value: " + mobilePhone);
 		newCustomerPage.enterToMobileNumberTextbox(mobilePhone, "telephoneno");
 
+		log.info("Add new customer- Step 9: Input to email with value: " + email);
 		newCustomerPage.enterToEmailTextbox(email, "emailid");
 
+		log.info("Add new customer- Step 10: Input to password with value: " + password);
 		newCustomerPage.enterToPasswordTextbox(password, "password");
 
+		log.info("Add new customer- Step 11: Click on Submite button");
 		newCustomerPage.clickToSubmiButton();
 		
-		
+		log.info("Add new customer- Step 12: Open Home page");
 		homepage = PageGeneratorManager.getHomePage(driver);
 		
-		Assert.assertEquals(homepage.getCustomerRegisteredSuccessfully(), "Customer Registered Successfully!!!");
+		log.info("Add new customer- Step 13: Verify Registered Successfully Message");
+		verifyEquals(homepage.getCustomerRegisteredSuccessfully(), "Customer Registered Successfully!!!");
 		
+		log.info("Add new customer- Step 14: Get ra Customer ID");
 		customerID = homepage.getCustomerID();
 		
+		log.info("Add new customer- Step 15: Click on  Edit customer link");
 		homepage.openNewPageByName(driver, "Edit Customer");
 		
+		log.info("Add new customer- Step 16: Open  Edit Customer Page");
 		editCustomerPage = PageGeneratorManager.getEditCustomerPage(driver);
 		
-		editCustomerPage.enterCustomerIDToTextbox(customerID);
-		
-		
-		
+		log.info("Add new customer- Step 17: Input to CustomerID textbox with value: "+ customerID);
+		editCustomerPage.enterCustomerIDToTextbox(customerID);	
 
 	}
 
